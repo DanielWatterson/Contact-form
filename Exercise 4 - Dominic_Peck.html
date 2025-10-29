@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arasaka Security Form</title>
+<link rel="stylesheet" href="Arasaka form.css">
+</head>
+<body>
+
+<div class="terminal">
+  <img class="logo-image" src="Arasaka_Logo_CP2077.webp" alt="Arasaka Logo">
+  <div class="terminal-header">PERSONNEL REGISTRATION</div>
+
+  <!-- Registration Form -->
+  <form class="arasaka-form" action="#" method="post">
+    <div class="form-group">
+      <label for="first_name">FIRST NAME</label>
+      <input type="text" id="first_name" name="first_name" placeholder="Enter first name" required>
+    </div>
+    <div class="form-group">
+      <label for="last_name">LAST NAME</label>
+      <input type="text" id="last_name" name="last_name" placeholder="Enter last name" required>
+    </div>
+    <div class="form-group">
+      <label for="gender">GENDER</label>
+      <select id="gender" name="gender" required>
+        <option value="" disabled selected>Select gender</option>
+        <option value="male">MALE</option>
+        <option value="female">FEMALE</option>
+        <option value="other">OTHER</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="dob">DATE OF BIRTH</label>
+      <input type="date" id="dob" name="dob" required>
+    </div>
+    <div class="form-group">
+      <label for="email">EMAIL</label>
+      <input type="email" id="email" name="email" placeholder="Enter email" required>
+    </div>
+    <button type="submit">SUBMIT</button>
+  </form>
+
+  <!-- Search Form -->
+  <form class="arasaka-search" action="https://youtu.be/1y5QkDnhcZk?list=RDGMEMS5MTn5PN5WJmowOZKRa5RgVM-QYMVEnZXqs" method="get">
+    <div class="form-group">
+      <label for="search_name">SEARCH NAME</label>
+      <input type="text" id="search_name" name="search_name" placeholder="Enter name to search" required>
+    </div>
+    <button type="submit">SEARCH</button>
+  </form>
+
+  <div class="status">ARASAKA NET_SEC // CHANNEL: ACTIVE</div>
+</div>
+
+</body>
+</html>
